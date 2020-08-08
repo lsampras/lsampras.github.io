@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sampras Lopes</title>
+    <link>https://lsampras.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Sampras Lopes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jul 2020 08:47:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://lsampras.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dockerizing a React&#43;Django app using docker-compose</title>
+      <link>https://lsampras.github.io/blog/posts/django-react-docker-compose/</link>
+      <pubDate>Mon, 20 Jul 2020 08:47:11 +0100</pubDate>
+      
+      <guid>https://lsampras.github.io/blog/posts/django-react-docker-compose/</guid>
+      <description>Recently I had built a Django-React app and wanted to share it with a friend at which point I realized the need for dockerizing my app. We&amp;rsquo;ll use docker-compose to run and manage our docker containers. Docker is a tool that helps to create, deploy and run containers. Containers are self-sufficient software executables that contain everything that is needed to run it (code, runtime, system tools, system libraries and settings), meaning you can run containerized apps without any dependency on your system.</description>
+    </item>
+    
+  </channel>
+</rss>

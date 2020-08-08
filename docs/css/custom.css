@@ -1,0 +1,72 @@
+.js .needs-js {
+    opacity: 1;
+    -webkit-transition: opacity .15s ease-in;
+    transition: opacity .15s ease-in
+}
+.bg-accent-color-dark {
+    background-color: #33ba91
+}
+.f6 {
+    font-size: .875rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.white {
+    color: #fff;
+}
+
+.absolute {
+    position: absolute;
+}
+.lh-solid {
+    line-height: 1;
+}
+.right-0 {
+    right: 0;
+}
+.top-0 {
+    top: 0;
+}
+.bn {
+    border-style: none;
+    border-width: 0;
+}
+button, input {
+    overflow: visible;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    font-family: inherit;
+    margin: 0;
+}
+.relative {
+    position: relative;
+}
+div {
+    box-sizing: border-box;
+    display: block;
+}
+.mid-gray {
+    color: #555;
+}
+pre code {
+    display: block;
+    padding: 0.5em;
+    font-size: .875rem;
+    line-height: 2;
+    overflow-x: auto;
+}
+.code-copy-content pre {
+    margin-top: 0;
+}
