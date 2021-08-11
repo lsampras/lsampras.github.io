@@ -177,19 +177,19 @@ services:
       - '3306'
     
     env_file:
-     - ./haptik_okr/.env
+     - .env
 
   server:
-    build: ./haptik_okr
+    build: .
     command: python manage.py runserver 0:8000
     volumes:
-      - ./haptik_okr:/app
+      - .:/app
     ports:
       - "8000:8000"
     depends_on:
       - mysql
     env_file:
-      - ./haptik_okr/.env
+      - .env
   
   website:
     build: ./website
