@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sampras Lopes</title>
-    <link>https://lsampras.github.io/blog/tags/</link>
+    <link>https://lsampras.github.io/tags/</link>
     <description>Recent content in Tags on Sampras Lopes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jul 2020 08:47:11 +0100</lastBuildDate>
     
-	<atom:link href="https://lsampras.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lsampras.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>django</title>
-      <link>https://lsampras.github.io/blog/tags/django/</link>
+      <link>https://lsampras.github.io/tags/django/</link>
       <pubDate>Mon, 20 Jul 2020 08:47:11 +0100</pubDate>
       
-      <guid>https://lsampras.github.io/blog/tags/django/</guid>
+      <guid>https://lsampras.github.io/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker-compose</title>
-      <link>https://lsampras.github.io/blog/tags/docker-compose/</link>
+      <link>https://lsampras.github.io/tags/docker-compose/</link>
       <pubDate>Mon, 20 Jul 2020 08:47:11 +0100</pubDate>
       
-      <guid>https://lsampras.github.io/blog/tags/docker-compose/</guid>
+      <guid>https://lsampras.github.io/tags/docker-compose/</guid>
       <description></description>
     </item>
     

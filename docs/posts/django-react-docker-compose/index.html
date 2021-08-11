@@ -18,7 +18,7 @@
 	<meta property="og:title" content="Dockerizing a React&#43;Django app using docker-compose" />
 <meta property="og:description" content=" Dockerizing a React/Django/MySQL application using docker-compose so that it can be easily run/shared on various machines without worrying about dependencies. " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lsampras.github.io/blog/posts/django-react-docker-compose/" />
+<meta property="og:url" content="https://lsampras.github.io/posts/django-react-docker-compose/" />
 <meta property="article:published_time" content="2020-07-20T08:47:11+01:00" />
 <meta property="article:modified_time" content="2020-07-20T08:47:11+01:00" />
 <meta name="twitter:card" content="summary"/>
@@ -27,20 +27,20 @@
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" media="screen" href="https://lsampras.github.io/blog/css/main.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://lsampras.github.io/blog/css/custom.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://lsampras.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://lsampras.github.io/css/custom.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-	<script src="https://lsampras.github.io/blog/js/custom.js"></script><link rel="stylesheet" type="text/css" href="https://lsampras.github.io/blog/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<script src="https://lsampras.github.io/js/custom.js"></script><link rel="stylesheet" type="text/css" href="https://lsampras.github.io/css/dark.css" media="(prefers-color-scheme: dark)" />
 </head><body>
         <div class="content"><header>
 	<div class="main">
-		<a href="https://lsampras.github.io/blog/">Sampras Lopes</a>
+		<a href="https://lsampras.github.io/">Sampras Lopes</a>
 	</div>
 	<nav>
 		
-		<a href="/blog/">Home</a>
+		<a href="/">Home</a>
 		
-		<a href="http://localhost:1313/">About</a>
+		<a href="/about">About</a>
 		
 	</nav>
 </header>
@@ -218,19 +218,19 @@ Our compose file should look like
       - <span style="color:#e6db74">&#39;3306&#39;</span>
     
     <span style="color:#66d9ef">env_file</span>:
-     - ./haptik_okr/.env
+     - .env
 
   <span style="color:#66d9ef">server</span>:
-    <span style="color:#66d9ef">build</span>: ./haptik_okr
+    <span style="color:#66d9ef">build</span>: .
     <span style="color:#66d9ef">command</span>: python manage.py runserver <span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">8000</span>
     <span style="color:#66d9ef">volumes</span>:
-      - ./haptik_okr:/app
+      - .:/app
     <span style="color:#66d9ef">ports</span>:
       - <span style="color:#e6db74">&#34;8000:8000&#34;</span>
     <span style="color:#66d9ef">depends_on</span>:
       - mysql
     <span style="color:#66d9ef">env_file</span>:
-      - ./haptik_okr/.env
+      - .env
   
   <span style="color:#66d9ef">website</span>:
     <span style="color:#66d9ef">build</span>: ./website
@@ -266,9 +266,9 @@ docker-compose exec server python manage.py migrate
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="/blog/tags/docker-compose">docker-compose</a></li>
+					<li><a href="/tags/docker-compose">docker-compose</a></li>
 					
-					<li><a href="/blog/tags/django">django</a></li>
+					<li><a href="/tags/django">django</a></li>
 					
 				</ul>
 			</nav>
@@ -279,7 +279,7 @@ docker-compose exec server python manage.py migrate
 </main>
 <footer>
 <hr>
-<div id="social-links"><a class="soc" href="https://github.com/lsampras" title="GitHub"><i data-feather="github"></i><span>Github</span></a>|<a class="soc" href="mailto:sampraslop995@gmail.com" title="Email"><i data-feather="mail"></i><span>Email</span></a>|</div>
+<div id="social-links"><a class="soc" href="https://github.com/lsampras" title="GitHub"><i data-feather="github"></i><span>Github</span></a>|<a class="soc" href="mailto:lsampras@protonmail.com" title="Email"><i data-feather="mail"></i><span>Email</span></a>|</div>
 </footer>
 
 
